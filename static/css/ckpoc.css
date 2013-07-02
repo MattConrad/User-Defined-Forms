@@ -1,0 +1,59 @@
+/* universal */
+
+* {
+    margin: 0 auto;
+}
+
+body { 
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
+    background-color: #B5B6AD
+}
+
+p {
+    font-size: 0.8em;
+    text-align: justify;
+    line-height: 1.4em;
+    padding: 5px;
+}
+
+p.error {
+    font-weight: bold;
+    color: red; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p.message {
+    font-weight: bold;
+    color: blue; 
+}
+
+#content {
+    width: 960px;
+    background-color: #ffffff;
+    min-height: 1000px;
+}
+
+#lside {
+    float: left;
+    width: 478px;
+	border-top: thick solid blue;
+	border-bottom: thick solid blue;
+}
+
+#rside {
+    float: right;
+    width: 478px;
+	border-top: thick solid lightgreen;
+	border-bottom: thick solid lightgreen;
+}
+
+#user_form, #completed_user_form {
+    /* font family and font size chosen to look like ckeditor entry (see contents.css) */
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 16px;
+
+    background-color: #E9E9E9;
+    margin: 5px;
+}
